@@ -1,7 +1,7 @@
     deployment:
           production:
             branch: master
-                commands:
+            commands:
                 - pwd
                 - cd feathers-chat
                 - pwd
