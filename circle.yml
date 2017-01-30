@@ -2,6 +2,4 @@
           production:
             branch: master
                 commands:
-              - git config --global user.email 'tim@tinymoth.com'
-              - git config --global user.name 'Tim Taylor'
-              - git push tim@tinymoth.com:tinymoth/feathers-chat.git $CIRCLE_SHA1:production
+                - git push origin master:production
