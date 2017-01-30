@@ -2,4 +2,7 @@
           production:
             branch: master
                 commands:
+                - pwd
+                - cd feathers-chat
+                - pwd
                 - git push origin master:production
