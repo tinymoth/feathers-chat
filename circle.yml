@@ -4,6 +4,6 @@ general:
         - master # list of branches to build
 deployment:
     production:
-    branch: master
-    commands:
-        - git push origin master:production
+        branch: master
+        commands:
+            - git push origin master:production
