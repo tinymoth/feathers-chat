@@ -1,0 +1,7 @@
+    deployment:
+          production:
+            branch: master
+                commands:
+              - git config --global user.email 'tim@tinymoth.com'
+              - git config --global user.name 'Tim Taylor'
+              - git push -u origin production
