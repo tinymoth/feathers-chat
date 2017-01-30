@@ -1,5 +1,9 @@
-    deployment:
-          production:
-            branch: master
-            commands:
-                - git push origin master:production
+general:
+    branches:
+        only:
+        - master # list of branches to build
+deployment:
+    production:
+    branch: master
+    commands:
+        - git push origin master:production
